@@ -4,6 +4,8 @@ import pickle
 from sklearn.ensemble import RandomForestClassifier
 from tqdm import tqdm
 from pandas import DataFrame, read_csv, concat
+import warnings
+warnings.filterwarnings("ignore")
 
 sys.path.insert(1, os.path.join(os.path.dirname(__file__), 'probes'))
 
